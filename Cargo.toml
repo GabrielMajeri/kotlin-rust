@@ -1,0 +1,11 @@
+[package]
+name = "kotlin-example"
+version = "0.1.0"
+authors = ["Gabriel Majeri <gabriel.majeri6@gmail.com>"]
+
+[lib]
+name = "rust_kotlin"
+crate-type = ["cdylib"]
+
+[dependencies]
+jni = "0.8"
